@@ -1,0 +1,112 @@
+.heading {
+  background-color: rgb(235, 95, 95);
+  padding-bottom: 2%;
+}
+.container-fluid {
+ 
+  padding-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.rotate {
+  padding-top: 2%;
+  transform: rotate(25deg);
+  width: 400px;
+  height: 700px;
+  position: absolute;
+  right: 20%;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 56px;
+  margin-top: 45px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: azure;
+  font-weight: bolder;
+}
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.feature-box {
+  padding: 3%;
+}
+.color {
+  color: rgb(214, 90, 90);
+}
+#slider {
+  background-color: rgb(223, 121, 121);
+  text-align: center;
+  line-height: 1.5;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.img {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+.col {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 18%;
+}
+.card-body{
+  text-align: center;
+
+}
+h2{
+  margin: 20px;
+  text-align: center;
+
+}
+p{
+  text-align: center;
+  font-size: 16px;
+  font-family:'Times New Roman'Arial 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.container{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.dis{
+  padding: 3% 2%;
+}
+.option{
+  background-color: rgb(223, 74, 74);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-weight: bolder;
+}
+.button{
+  padding-bottom: 50px;
+}
+.icon{
+  padding: 5% 2% 2% 2%;
+  font-size: xx-large;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .rotate {
+    position: static;
+    transform: rotate(0);
+  }
+}
